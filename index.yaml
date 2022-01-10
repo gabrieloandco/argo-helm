@@ -1,12 +1,37 @@
 apiVersion: v1
 entries:
+  argo-events:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed]: Update to Argo Events v1.5.0"
+    apiVersion: v2
+    appVersion: v1.5.0
+    created: "2022-01-10T11:16:52.194086928Z"
+    description: A Helm chart to install Argo-Events in k8s Cluster
+    digest: 9b7cf1a16271cf81838be6a71d50c2c187b337526bfa24db410757c472b02710
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-events/assets/logo.png
+    keywords:
+    - argo-events
+    - sensor-controller
+    - eventsource-controller
+    - eventbus-controller
+    maintainers:
+    - name: VaibhavPage
+    - name: whynowy
+    name: argo-events
+    sources:
+    - https://github.com/argoproj/argo-events
+    urls:
+    - http://bitburst-gmbh.github.io/argo-helm/argo-events-1.8.0.tgz
+    version: 1.8.0
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
         - "[Added]: Added documentation and (default disabled) settings for dev-mode or delegated server authentication"
     apiVersion: v2
     appVersion: v3.2.4
-    created: "2021-12-14T15:21:14.810793085Z"
+    created: "2022-01-10T11:16:52.195846091Z"
     description: A Helm chart for Argo Workflows
     digest: 0a1ca8ced90571364d56bb759e192c72f3ced2192c7e078d0cf30d9579f814b9
     home: https://github.com/argoproj/argo-helm
@@ -23,4 +48,4 @@ entries:
     urls:
     - http://bitburst-gmbh.github.io/argo-helm/argo-workflows-0.9.3.tgz
     version: 0.9.3
-generated: "2021-12-14T15:21:14.809067408Z"
+generated: "2022-01-10T11:16:52.193030591Z"
