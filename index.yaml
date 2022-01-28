@@ -5,30 +5,6 @@ entries:
       artifacthub.io/changes: |
         - "[Changed]: Update to Argo Events v1.5.0"
     apiVersion: v2
-    appVersion: v1.5.6
-    created: "2022-01-28T13:07:41.319151008Z"
-    description: A Helm chart to install Argo-Events in k8s Cluster
-    digest: 3bfd518293d46810a95cfb964208d236b17b418e619f5c6a21112a99850979ca
-    home: https://github.com/argoproj/argo-helm
-    icon: https://argoproj.github.io/argo-events/assets/logo.png
-    keywords:
-    - argo-events
-    - sensor-controller
-    - eventsource-controller
-    - eventbus-controller
-    maintainers:
-    - name: VaibhavPage
-    - name: whynowy
-    name: argo-events
-    sources:
-    - https://github.com/argoproj/argo-events
-    urls:
-    - https://github.com/BitBurst-GmbH/argo-helm/releases/download/argo-events-1.10.2/argo-events-1.10.2.tgz
-    version: 1.10.2
-  - annotations:
-      artifacthub.io/changes: |
-        - "[Changed]: Update to Argo Events v1.5.0"
-    apiVersion: v2
     appVersion: v1.5.0
     created: "2022-01-10T11:16:52.194086928Z"
     description: A Helm chart to install Argo-Events in k8s Cluster
@@ -54,6 +30,28 @@ entries:
       artifacthub.io/changes: |
         - "[Added]: Added documentation and (default disabled) settings for dev-mode or delegated server authentication"
     apiVersion: v2
+    appVersion: v3.2.6
+    created: "2022-01-28T13:19:32.662381104Z"
+    description: A Helm chart for Argo Workflows
+    digest: 6f6255673414465b455631e82dd5aa777f1e1dff0726e0d86db6b84780b9c8c1
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - https://github.com/BitBurst-GmbH/argo-helm/releases/download/argo-workflows-0.9.5/argo-workflows-0.9.5.tgz
+    version: 0.9.5
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Added]: Added documentation and (default disabled) settings for dev-mode or delegated server authentication"
+    apiVersion: v2
     appVersion: v3.2.4
     created: "2022-01-10T11:16:52.195846091Z"
     description: A Helm chart for Argo Workflows
@@ -72,4 +70,4 @@ entries:
     urls:
     - http://bitburst-gmbh.github.io/argo-helm/argo-workflows-0.9.3.tgz
     version: 0.9.3
-generated: "2022-01-28T13:07:41.524196688Z"
+generated: "2022-01-28T13:19:32.662415304Z"
